@@ -22,7 +22,12 @@ const About = () => {
               contact
             </Link>
           </article>
-          <StaticImage src="../assets/images/about.jpeg" alt="Person pouring salt"/>
+          <StaticImage
+            src="../assets/images/about.jpeg"
+            alt="Person pouring salt"
+            className="about-img"
+            placeholder="blurred"
+          />
         </section>
       </main>
     </Layout>
